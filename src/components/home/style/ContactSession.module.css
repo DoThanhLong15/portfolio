@@ -1,0 +1,23 @@
+.description {
+    width: 60%;
+}
+
+.contact {
+    background-color: var(--c-light-orange);
+    border: 1px solid var(--c-black);
+    padding: 1.5rem;
+}
+
+.contactTitle {
+    color: var(--c-dark-blue);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.contactItem {
+    color: var(--c-black);
+}
+
+.contactItem:hover {
+    color: var(--c-white);
+}

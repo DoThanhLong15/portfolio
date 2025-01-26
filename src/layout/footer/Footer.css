@@ -1,0 +1,32 @@
+.footer {
+    padding: 2rem 0rem;
+}
+
+.footer .line {
+    top: 0;
+    width: 120%;
+    transform: translateX(-50%);
+    left: 50%;
+    border-top: var(--c-dark-blue) 1px solid;
+}
+
+.footer .description-area {
+    width: 25%;
+}
+
+.footer .description-area .title {
+    color: var(--c-black);
+}
+
+.footer .description-area .email {
+    color: var(--c-blue);
+}
+
+.footer .description-area .description {
+    color: var(--c-white);
+}
+
+.footer .media .title {
+    letter-spacing: 0.1rem;
+    color: var(--c-dark-blue);
+}
