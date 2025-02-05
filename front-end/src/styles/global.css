@@ -1,0 +1,41 @@
+:root {
+    --c-light-blue: #32BCFF;
+    --c-blue: #445AFF;
+    --c-dark-blue: #041dd9;
+    --c-black: #030308;
+    --c-black-25: rgba(3, 3, 8, 0.25);
+    --c-orange: #FF8900;
+    --c-light-orange: #FFB800;
+    --c-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--c-light-blue);
+}
+
+.container {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.content-area {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}

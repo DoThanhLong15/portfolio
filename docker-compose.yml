@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  front-end:
+    build: 
+      context: ./front-end
+    container_name: portfolio-front-end
+    ports:
+      - "3000:3000"
+    command: npm start
+    networks:
+      - app-network
+    volumes:
+      - ./front-end:/app 
+      - /app/node_modules 
+
+networks:
+  app-network:
+    driver: bridge

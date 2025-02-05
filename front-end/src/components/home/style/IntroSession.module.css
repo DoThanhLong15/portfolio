@@ -1,0 +1,133 @@
+.imageDescription, .slogan {
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.squareLogo, .dotLogo, .imageDescription, .slogan .leftQuote, .slogan .rightQuote, .slogan .author {
+    position: absolute;
+}
+
+.imageArea, .slogan {
+    position: relative;
+}
+
+.introSession {
+    display: flex;
+}
+
+.descriptionArea {
+    width: 60%;
+    line-height: 5rem;
+}
+
+.title {
+    color: var(--c-white);
+    font-weight: bolder;
+    font-size: 2rem;
+    text-shadow: 0px 4px 4px var(--c-black-25);
+}
+
+.role {
+    color: var(--c-black);
+}
+
+.btnContact {
+    color: var(--c-dark-blue);
+    background-color: var(--c-light-orange);
+    border: var(--c-black) 1px solid;
+    padding: 0.5rem;
+    line-height: normal;
+    width: 20%;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.btnContact:hover{
+    background-color: var(--c-white);
+    color: var(--c-black);
+}
+
+.imageArea {
+    width: 40%;
+}
+
+.personImage {
+    width: 100%;
+    height: auto;
+}
+
+.squareLogo {
+    z-index: -1;
+    left: 0;
+    top: 20%;
+    width: 35%;
+}
+
+.dotLogo {
+    right: 0;
+    top: 60%;
+    width: 15%;
+}
+
+.imageDescription {
+    bottom: 0;
+    width: 90%;
+    padding: 0.5rem;
+    background-color: var(--c-light-orange);
+    color: var(--c-dark-blue);
+    font-weight: bold;
+}   
+
+.imageDescription span {
+    color: var(--c-black);
+}
+
+.imageDescription > .icon {
+    background-color: var(--c-black);
+    margin-right: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.slogan {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    background-color: var(--c-light-orange);
+    width: 70%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.slogan .text {
+    color: var(--c-dark-blue);
+    text-align: center;
+}
+
+.slogan .leftQuote, .slogan .rightQuote {
+    background-color: var(--c-light-orange);
+    padding: 0.5rem;
+}
+
+.leftQuote {
+    top: 0;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.rightQuote {
+    bottom: 0;
+    right: 5%;
+    transform: translateY(50%);
+}
+
+.author {
+    border: var(--c-black) 1px solid;
+    bottom: 0;
+    transform: translateY(100%);
+    right: 0;
+    padding: 1.5rem !important;
+    background-color: unset !important;
+    z-index: -1;
+    font-weight: normal;
+}

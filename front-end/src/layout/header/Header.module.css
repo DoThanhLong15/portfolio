@@ -1,0 +1,42 @@
+.header {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    background-color: var(--c-light-blue);
+    z-index: 100;
+}
+
+.pageLogo {
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.navBar {
+    width: 40%;
+}
+
+.navItem {
+    color: var(--c-orange);
+    text-decoration: none;
+}
+
+.navItemText{
+    color: var(--c-black);
+}
+
+.navItem:hover .navItemText{
+    color: var(--c-light-orange) !important;
+}
+
+.active .navItemText{
+    color: var(--c-dark-blue);
+    font-weight: bolder;
+}
