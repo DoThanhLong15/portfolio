@@ -1,0 +1,26 @@
+.skillBox {
+    background-color: var(--c-white);
+    border: var(--c-black) solid 2px;
+    min-width: 20%;
+    max-width: 40%;
+    margin: 0.5rem;
+}
+
+.skillBoxName {
+    text-align: center;
+    border-bottom: 2px solid var(--c-dark-blue);
+    font-weight: bold !important;
+    padding: 0.5rem;
+}
+
+.skillBoxList {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillBoxList div {
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--c-blue);
+}

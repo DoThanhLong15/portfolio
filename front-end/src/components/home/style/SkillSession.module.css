@@ -1,0 +1,16 @@
+.skillSession {
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.skillArea {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    justify-content: end;
+}
+
+.logoArea {
+    width: 40%;
+}

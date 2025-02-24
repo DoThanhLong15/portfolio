@@ -8,8 +8,8 @@ const ContactSession = () => {
 
       <div className="flex">
         <div className={style.description}>
-          I’m interested in freelance opportunities. However, if you have ot    her
-          request or question, don’t hesitate to contact me.
+          I'm interested in freelance opportunities. However, if you have other
+          request or question, don't hesitate to contact me.
         </div>
         <div className={style.contact}>
           <div className={style.contactTitle}>Message me here</div>
