@@ -1,0 +1,56 @@
+.aboutMeSession {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.descriptionArea {
+    width: 50%;
+    line-height: 2rem;
+}
+
+.descriptionArea .description p {
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.btnReadMore {
+    color: var(--c-white);
+    background-color: var(--c-dark-blue);
+    border: var(--c-black) 1px solid;
+    padding: 0.5rem;
+    line-height: normal;
+    width: 20%;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.btnReadMore:hover {
+    color: var(--c-black);
+    background-color: var(--c-white);
+}
+
+.imageArea {
+    width: 35%;
+    position: relative;
+}
+
+.imageArea .personImage {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.dotLogo {
+    position: absolute;
+}
+
+.dotLogo:nth-child(3) {
+    top: 20%;
+    left: 10%;
+}
+
+.dotLogo:nth-child(2) {
+    top: 60%;
+    right: 10%;
+}
