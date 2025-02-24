@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   front-end:
@@ -6,13 +6,10 @@ services:
       context: ./front-end
     container_name: portfolio-front-end
     ports:
-      - "3000:3000"
-    command: npm start
+      - "3000:80"
     networks:
       - app-network
-    volumes:
-      - ./front-end:/app 
-      - /app/node_modules 
+    restart: unless-stopped
 
 networks:
   app-network:
