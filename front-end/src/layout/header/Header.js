@@ -48,7 +48,7 @@ const Header = () => {
     if (currentNavItem) {
       setTitle(currentNavItem.title);
     }
-  }, [location.pathname]);
+  }, [location.pathname, setTitle, navItem]);
 
 
   return (

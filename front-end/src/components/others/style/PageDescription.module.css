@@ -1,0 +1,5 @@
+.description {
+    color: var(--c-dark-blue);
+    text-align: justify;
+    line-height: 2rem;
+}

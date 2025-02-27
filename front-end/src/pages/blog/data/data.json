@@ -1,0 +1,13 @@
+{
+    "pageDescription": "Welcome to my blog! Here, I share insights on web development, modern database models. Whether you're looking for in-depth tutorials, troubleshooting tips, or best practices, you'll find valuable content to enhance your coding journey. I explore front-end and back-end technologies, security, and API development, with a focus on practical solutions. If you're passionate about clean code and efficient systems, you're in the right place! Stay curious, keep building, and let's grow together.",
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Blog Post 1",
+            "date": "2025-02-27",
+            "author": "Long Do",
+            "content": "aaaaaaaaaa",
+            "tags": ["python", "javascript", "react"]
+        }
+    ]
+}
