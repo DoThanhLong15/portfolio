@@ -15,17 +15,17 @@ const SkillSession = () => {
       skillItem: ["VSCode", "Git", "Docker", "Figma"],
     },
     {
-        skillName: "Databases",
-        skillItem: ["MySQL", "Redis", "MongoDB"],
-      },
-      {
-        skillName: "Others",
-        skillItem: ["HTML", "CSS", "RestfulAPI"],
-      },
-      {
-        skillName: "Frameworks",
-        skillItem: ["React", "Node.js", "Spring", "Flash", "Express.js"],
-      },
+      skillName: "Databases",
+      skillItem: ["MySQL", "Redis", "MongoDB"],
+    },
+    {
+      skillName: "Others",
+      skillItem: ["HTML", "CSS", "RestfulAPI"],
+    },
+    {
+      skillName: "Frameworks",
+      skillItem: ["React", "Node.js", "Spring", "Flash", "Express.js"],
+    },
   ]);
 
   return (
@@ -38,6 +38,7 @@ const SkillSession = () => {
           {skillList &&
             skillList.map((skill) => (
               <SkillBox
+                key={skill.skillName}
                 skillName={skill.skillName}
                 itemList={skill.skillItem}
               />
