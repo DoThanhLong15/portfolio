@@ -8,6 +8,14 @@
             "author": "Long Do",
             "content": "aaaaaaaaaa",
             "tags": ["python", "javascript", "react"]
+        },
+        {
+            "id": 2,
+            "title": "Blog Post 2",
+            "date": "2025-02-27",
+            "author": "Long Do",
+            "content": "bbbbbbbbbbb",
+            "tags": ["python", "javascript", "react"]
         }
     ]
 }
