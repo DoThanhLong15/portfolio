@@ -6,7 +6,7 @@ services:
       context: ./front-end
     container_name: portfolio-front-end
     ports:
-      - "3000:80"
+      - "3000:3000"
     networks:
       - app-network
     restart: unless-stopped
