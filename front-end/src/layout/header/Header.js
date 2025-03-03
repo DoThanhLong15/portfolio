@@ -1,38 +1,55 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+
+import { useTitle } from "../../contexts/PageTitleContext";
+
 import style from "./Header.module.css";
 
 const Header = () => {
-  const [navItem, setNavItem] = useState([
+  const { setTitle } = useTitle();
+  const location = useLocation();
+  const [navItem] = useState([
     {
       active: true,
       text: "home",
-      link: "#",
+      link: "/",
+      title: "Home"
     },
     {
       active: false,
       text: "about-me",
-      link: "#",
+      link: "/about-me",
+      title: "About me"
+    },
+    {
+      active: false,
+      text: "blog",
+      link: "/blog",
+      title: "Blog"
     },
     {
       active: false,
       text: "works",
-      link: "#",
+      link: "/projects",
+      title: "Works"
     },
     {
       active: false,
       text: "contacts",
-      link: "#",
+      link: "/contact",
+      title: "Contacts"
     },
   ]);
 
-  const handleNavItemClick = (index) => {
-    setNavItem((prevNavItem) =>
-      prevNavItem.map((item, i) => ({
-        ...item,
-        active: i === index,
-      }))
-    );
-  };
+
+  useEffect(() => {
+    const currentNavItem = navItem.find((item) => item.link === location.pathname);
+    
+    if (currentNavItem) {
+      setTitle(currentNavItem.title);
+    }
+  }, [location.pathname, setTitle, navItem]);
+
 
   return (
     <>
@@ -52,8 +69,7 @@ const Header = () => {
               <a
                 key={index}
                 href={item.link}
-                className={`${style.navItem} ${item.active ? style.active : ""}`}
-                onClick={() => handleNavItemClick(index)}
+                className={`${style.navItem} ${location.pathname === item.link ? style.active : ""}`}
               >
                 #<span className={style.navItemText}>{item.text}</span>
               </a>

@@ -1,10 +1,15 @@
-import React from 'react';
-import MainRoute from './routes/index';
+import React from "react";
+
+import MainRoute from "./routes/index";
+import { TitleProvider } from "./contexts/PageTitleContext";
 
 const App = () => {
+
   return (
     <div className="App">
-      <MainRoute />
+      <TitleProvider>
+        <MainRoute />
+      </TitleProvider>
     </div>
   );
 };
