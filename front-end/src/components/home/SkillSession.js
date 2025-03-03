@@ -5,7 +5,7 @@ import style from "./style/SkillSession.module.css";
 import SkillBox from "../others/SkillBox";
 
 const SkillSession = () => {
-  const [skillList, setSkillInfo] = useState([
+  const [skillList] = useState([
     {
       skillName: "Languages",
       skillItem: ["Java", "JavaScript", "Python"],
