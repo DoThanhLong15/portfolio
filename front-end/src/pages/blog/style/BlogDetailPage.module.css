@@ -1,0 +1,30 @@
+.blogDetail {
+    cursor: pointer;
+}
+
+.blogDetail .blogTitle {
+    color: var(--c-dark-blue);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3rem;
+    text-align: center;
+}
+
+.blogDetail .blogContent {
+    background-color: var(--c-white-blue);
+    border: var(--c-black) 1px solid; 
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.blogDetail .blogAuthorArea {
+    color: var(--c-black-50);
+    margin: 1rem 0;
+    text-align: right;
+}
+
+.blogDetail .blogAuthorArea .blogAuthor {
+    color: var(--c-dark-blue);
+    font-size: 1.2rem;
+    font-weight: bold;
+}

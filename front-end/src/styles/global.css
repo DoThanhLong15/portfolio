@@ -1,12 +1,16 @@
 :root {
+    --c-white-blue: #98DDFE;
     --c-light-blue: #32BCFF;
     --c-blue: #445AFF;
     --c-dark-blue: #041dd9;
+    --c-light-purple: #A1ACFF; 
     --c-black: #030308;
     --c-black-25: rgba(3, 3, 8, 0.25);
+    --c-black-50: rgba(3, 3, 8, 0.5);
     --c-orange: #FF8900;
     --c-light-orange: #FFB800;
     --c-white: #FFFFFF;
+    --c-grey: #666666;
 }
 
 body {

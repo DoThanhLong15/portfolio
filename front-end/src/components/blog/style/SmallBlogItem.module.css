@@ -1,0 +1,49 @@
+.smallBlogItem {
+    background-color: var(--c-white-blue);
+    border: var(--c-black) 1px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 3rem 0;
+}
+
+.smallBlogItem:hover .blogTitle {
+    color: var(--c-blue);
+    font-size: 1.2rem;
+}
+
+.smallBlogItem .blogTitle {
+    margin: 0;
+    border-bottom: var(--c-black) 1px solid;
+    padding: 0.5rem;
+    color: var(--c-dark-blue);
+}
+
+.smallBlogItem .blogDate {
+    font-size: 0.8rem;
+    color: var(--c-orange);
+    font-weight: normal;
+    margin: 0 1rem;
+}
+
+.smallBlogItem .blogContent {
+    padding: 0.5rem;
+}
+
+.smallBlogItem .blogContent .blogDescription {
+    margin: 0 0 0.5rem 0;
+}
+
+.smallBlogItem .blogContent .blogTags {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.smallBlogItem .blogContent .blogTags .blogTag {
+    padding: 0.5rem;
+    background-color: var(--c-blue);
+    border-radius: 0.5rem;
+    margin: 0 0.5rem 0.5rem 0;  
+    color: var(--c-white);
+}
