@@ -1,0 +1,63 @@
+.projectItem {
+    background-color: var(--c-white-blue);
+    border: var(--c-black) 1px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    width: 27%;
+}
+
+.projectItem .projectItemName {
+    border-bottom: var(--c-black) 1px solid;
+    color: var(--c-dark-blue);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.projectItem .projectItemName,
+.projectItem .projectItemDescription {
+    margin-bottom: 1rem;
+}
+
+.projectItem .projectItemTechnologies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectItem .projectItemTechnologies .projectTechnologyItem {
+    background-color: var(--c-black-25);
+    border-radius: 1rem;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+.projectItem .btnArea {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.projectItem .btnArea .btn{
+    border: var(--c-black) 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    text-decoration: none;
+}
+
+.projectItem .btnArea .btn:hover{
+    background-color: var(--c-white);
+    color: var(--c-black);
+}
+
+.projectItem .btnArea .btnProjectLink{
+    color: var(--c-white);
+    background-color: var(--c-dark-blue);
+    margin-right: 1rem;
+}
+
+.projectItem .btnArea .btnProjectDetail{
+    color: var(--c-black);
+    background-color: var(--c-light-orange);
+    margin-right: 1rem;
+}

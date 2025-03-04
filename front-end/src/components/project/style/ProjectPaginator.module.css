@@ -1,0 +1,11 @@
+.completeAppArea {
+    margin-bottom: 1rem;
+}
+
+.completeAppArea .projectItemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+}

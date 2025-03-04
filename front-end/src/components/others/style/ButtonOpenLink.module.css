@@ -1,0 +1,11 @@
+.buttonOpenLink {
+    border: var(--c-black) 2px solid;
+    border-radius: 1rem;
+    color: var(--c-black);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.buttonOpenLink:hover {
+    background-color: var(--c-white) !important;
+}

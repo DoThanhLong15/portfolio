@@ -1,0 +1,97 @@
+{
+  "pageDescription": "Our project is designed to provide an intuitive and efficient solution for managing and organizing tasks seamlessly. With a user-friendly interface, it enables users to create, edit, and track their progress effortlessly. The system integrates advanced features such as real-time collaboration, automated notifications, and insightful analytics to enhance productivity. \nBuilt using modern technologies, the project ensures scalability, security, and optimal performance. Whether you are an individual looking for a personal task manager or a team in need of a collaborative workspace, our platform adapts to your needs. \nExperience a smarter way to stay organized and achieve your goals efficiently. Let me know if you'd like any modifications or additional details!",
+  "projects": [
+    {
+      "name": "LocalBrandShop_BE",
+      "slug": "localbrandshop-be",
+      "description": "Backend for Local Brand Shop application.",
+      "repository_url": "https://github.com/DoThanhLong15/LocalBrandShop_BE",
+      "owner": {
+        "username": "DoThanhLong15",
+        "profile_url": "https://github.com/DoThanhLong15"
+      },
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT"
+      ],
+      "features": [
+        "User authentication and authorization",
+        "Product management",
+        "Order processing",
+        "Payment integration"
+      ],
+      "installation": "- Clone the repository\n```bash\ngit clone https://github.com/DoThanhLong15/LocalBrandShop_BE.git\n```\n - Navigate to the project directory\n```bash\ncd LocalBrandShop_BE\n```\n - Install dependencies\n```bash\nnpm install\n```\n - Set up environment variables as per the .env.example file\n - Start the server\n```bash\nnpm start\n```\n",
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Do Thanh Long",
+          "profile_url": "https://github.com/DoThanhLong15"
+        }
+      ]
+    },
+    {
+      "name": "SpringOnlineCourseApp",
+      "slug": "spring-online-course-app",
+      "description": "A Spring-based application for managing online courses.",
+      "repository_url": "https://github.com/DoThanhLong15/SpringOnlineCourseApp",
+      "owner": {
+        "username": "DoThanhLong15",
+        "profile_url": "https://github.com/DoThanhLong15"
+      },
+      "technologies": [
+        "Java",
+        "Spring Framework",
+        "Spring Boot",
+        "Hibernate",
+        "MySQL"
+      ],
+      "features": [
+        "Course management",
+        "User registration and authentication",
+        "Enrollment system",
+        "Progress tracking"
+      ],
+      "installation": "- Clone the repository: \n```bash\ngit clone https://github.com/DoThanhLong15/SpringOnlineCourseApp.git\n```\n- Navigate to the project directory: \n```bash\ncd SpringOnlineCourseApp\n```\n- Set up the MySQL database and update the application.properties file accordingly\n- Build the project: \n```bash\nmvn clean install\n```\n- Run the application: \n```bash\njava -jar target/SpringOnlineCourseApp.jar\n```\n",
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Do Thanh Long",
+          "profile_url": "https://github.com/DoThanhLong15"
+        }
+      ]
+    },
+    {
+      "name": "portfolio",
+      "slug": "portfolio",
+      "description": "A personal portfolio website to showcase projects and skills.",
+      "repository_url": "https://github.com/DoThanhLong15/portfolio",
+      "owner": {
+        "username": "DoThanhLong15",
+        "profile_url": "https://github.com/DoThanhLong15"
+      },
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "features": [
+        "Responsive design",
+        "Project showcase",
+        "Contact form",
+        "Blog section"
+      ],
+      "installation": "- Clone the repository: \n```bash\ngit clone https://github.com/DoThanhLong15/portfolio.git\n```\n- Navigate to the project directory: \n```bash\ncd portfolio\n```\n- Install dependencies: \n```bash\nnpm install\n```\n- Start the development server: \n```bash\nnpm start\n```\n",
+      "license": "MIT",
+      "contributors": [
+        {
+          "name": "Do Thanh Long",
+          "profile_url": "https://github.com/DoThanhLong15"
+        }
+      ]
+    }
+  ]
+}
