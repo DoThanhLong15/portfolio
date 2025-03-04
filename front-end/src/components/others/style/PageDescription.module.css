@@ -2,4 +2,5 @@
     color: var(--c-dark-blue);
     text-align: justify;
     line-height: 2rem;
+    white-space: pre-line;
 }

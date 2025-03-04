@@ -1,0 +1,55 @@
+.projectDetail {
+    background-color: var(--c-white-blue);
+    border: var(--c-black) 1px solid;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 3rem;
+}
+
+.projectDetail .projectName {
+    color: var(--c-dark-blue);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3rem;
+    text-align: center;
+}
+
+.projectDetail .projectDescription, .projectDetail .projectOwnerArea {
+    margin: 2rem 0;
+}
+
+.projectDetail .projectOwnerArea {
+    display: flex;
+    align-items: center;
+}
+
+.projectDetail .smallSectionTitle {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.projectDetail .projectOwnerArea .projectOwner {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    margin: 0 2rem;
+    max-height: 3rem;   
+    width: 25%;
+}
+
+.projectDetail .projectOwnerArea .projectOwnerAvatar {
+    border-radius: 50%;
+    height: 3rem;
+    margin-right: 1rem;
+    width: auto;
+}
+
+.projectDetail .repositoryArea {
+    align-items: center;
+    display: flex;
+}
+
+.projectDetail .repositoryArea .repositoryLinkButton, .projectDetail .projectOwnerArea .ownerProfileButton {
+    background-color: var(--c-light-orange);
+}
