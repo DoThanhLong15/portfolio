@@ -7,6 +7,15 @@
     width: 27%;
 }
 
+.projectItem:hover {
+    border-radius: 1rem;
+    box-shadow: var(--c-black-50) 0.5rem 0.5rem;
+}
+
+.projectItem:hover .projectItemName {
+    color: var(--c-black);
+}
+
 .projectItem .projectItemName {
     border-bottom: var(--c-black) 1px solid;
     color: var(--c-dark-blue);

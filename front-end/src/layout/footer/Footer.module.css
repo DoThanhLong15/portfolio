@@ -1,0 +1,52 @@
+.footer {
+    padding: 2rem 0rem;
+    position: relative;
+}
+
+.footer .line {
+    border-top: var(--c-dark-blue) 1px solid;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 120%;
+}
+
+.footer .content, .footer .descriptionArea .authorArea{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .description-area {
+    width: 25%;
+}
+
+.footer .descriptionArea .authorArea .author {
+    color: var(--c-black);
+    margin-right: 1rem;
+}
+
+.footer .descriptionArea .authorArea .email {
+    color: var(--c-blue);
+}
+
+.footer .descriptionArea .description {
+    color: var(--c-white);
+}
+
+.footer .media .title {
+    color: var(--c-dark-blue);
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.footer .media .icon {
+    color: var(--c-black);
+    font-size: 2rem;
+}
+
+.footer .media .icon:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}

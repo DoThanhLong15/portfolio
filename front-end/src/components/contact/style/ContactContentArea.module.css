@@ -1,0 +1,31 @@
+.contentArea {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentArea .content {
+    cursor: default;
+    width: 60%;
+}
+
+.contentArea .contact {
+    background-color: var(--c-light-orange);
+    border: 1px solid var(--c-black);
+    cursor: default;
+    padding: 1.5rem;
+}
+
+.contentArea .contactTitle {
+    color: var(--c-dark-blue);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.contentArea .contactItem {
+    color: var(--c-black);
+}
+
+.contentArea .contactItem .contactIcon {
+    margin-right: 0.5rem;
+}

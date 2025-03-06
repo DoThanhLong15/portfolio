@@ -1,32 +1,10 @@
-import TitleSession from "../others/TitleSession";
-import { useState } from "react";
-
+import data from "./../../data/about-me.json";
 import style from "./style/SkillSession.module.css";
+
 import SkillBox from "../others/SkillBox";
+import TitleSession from "../others/TitleSession";
 
 const SkillSession = () => {
-  const [skillList] = useState([
-    {
-      skillName: "Languages",
-      skillItem: ["Java", "JavaScript", "Python"],
-    },
-    {
-      skillName: "Tools",
-      skillItem: ["VSCode", "Git", "Docker", "Figma"],
-    },
-    {
-      skillName: "Databases",
-      skillItem: ["MySQL", "Redis", "MongoDB"],
-    },
-    {
-      skillName: "Others",
-      skillItem: ["HTML", "CSS", "RestfulAPI"],
-    },
-    {
-      skillName: "Frameworks",
-      skillItem: ["React", "Node.js", "Spring", "Flash", "Express.js"],
-    },
-  ]);
 
   return (
     <>
@@ -35,12 +13,12 @@ const SkillSession = () => {
       <div className={style.skillSession}>
         <div className={style.logoArea}></div>
         <div className={style.skillArea}>
-          {skillList &&
-            skillList.map((skill) => (
+          {data.skills &&
+            data.skills.map((skill, index) => (
               <SkillBox
-                key={skill.skillName}
-                skillName={skill.skillName}
-                itemList={skill.skillItem}
+                key={index}
+                skillName={skill.title}
+                itemList={skill.items}
               />
             ))}
         </div>

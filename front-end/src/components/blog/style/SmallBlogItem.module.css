@@ -6,9 +6,13 @@
     margin: 3rem 0;
 }
 
+.smallBlogItem:hover {
+    border-radius: 1rem;
+    box-shadow: var(--c-black-50) 0.5rem 0.5rem;
+}
+
 .smallBlogItem:hover .blogTitle {
     color: var(--c-blue);
-    font-size: 1.2rem;
 }
 
 .smallBlogItem .blogTitle {

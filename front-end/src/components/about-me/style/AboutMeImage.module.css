@@ -1,0 +1,23 @@
+.imageArea {
+    width: 35%;
+    position: relative;
+}
+
+.imageArea .personImage {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.dotLogo {
+    position: absolute;
+}
+
+.dotLogo:nth-child(3) {
+    top: 20%;
+    left: 10%;
+}
+
+.dotLogo:nth-child(2) {
+    top: 60%;
+    right: 10%;
+}
