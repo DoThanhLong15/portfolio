@@ -1,0 +1,19 @@
+.contentArea {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentArea .content {
+    line-height: 2rem;
+    margin: 3rem 0 2rem;
+    text-align: justify;
+    white-space: pre-line;
+    width: 50%;
+}
+
+.skillArea {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}

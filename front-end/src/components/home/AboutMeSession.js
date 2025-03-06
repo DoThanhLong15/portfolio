@@ -1,9 +1,16 @@
 import data from "./../../data/about-me.json";
-
-import TitleSession from "../others/TitleSession";
 import style from "./style/AboutMeSession.module.css";
 
+import AboutMeImage from "../about-me/AboutMeImage";
+import TitleSession from "../others/TitleSession";
+
+import { useNavigate } from "react-router-dom";
+
 const AboutMeSession = () => {
+  const navigate = useNavigate();
+
+  const goAboutMePage = () => navigate("/about-me");
+
   return (
     <>
       <TitleSession title="about-me" />
@@ -12,25 +19,12 @@ const AboutMeSession = () => {
         <div className={style.descriptionArea}>
           <div className={style.description}>{data.content}</div>
 
-          <div className={style.btnReadMore}>Read more</div>
+          <div className={style.btnReadMore} onClick={goAboutMePage}>
+            Read more
+          </div>
         </div>
-        <div className={style.imageArea}>
-          <img
-            className={style.personImage}
-            src="/assets/images/personImage2.png"
-            alt="Profile"
-          />
-          <img
-            className={style.dotLogo}
-            src="/assets/images/dotLogo.png"
-            alt="Dot 1"
-          />
-          <img
-            className={style.dotLogo}
-            src="/assets/images/dotLogo.png"
-            alt="Dot 2"
-          />
-        </div>
+
+        <AboutMeImage />
       </div>
     </>
   );
