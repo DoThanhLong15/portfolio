@@ -9,9 +9,10 @@
     line-height: 2rem;
 }
 
-.descriptionArea .description p {
+.descriptionArea .description {
     margin-bottom: 2rem;
     text-align: justify;
+    white-space: pre-line;
 }
 
 .btnReadMore {

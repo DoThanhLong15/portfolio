@@ -1,4 +1,4 @@
-import data from "./data/data.json";
+import data from "./../../data/projects.json";
 
 import { PROJECTS_PER_PAGE } from "./../../config/pagination";
 import { useState } from "react";

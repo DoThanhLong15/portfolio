@@ -1,0 +1,48 @@
+{
+    "pageDescription": "Who I am?",
+    "content": "Hello, I'm Long!\n\nI'm a passionate backend developer from Ho Chi Minh City Open University (OU HCM), with a background in Technology. I specialize in building scalable and secure backend systems.\n\nWith hands-on experience in backend frameworks and database management, I am dedicated to continuous learning and staying updated with the latest technologies. I have a strong problem-solving mindset and a collaborative approach to working in development teams.",
+    "skills": [
+        {
+            "title": "Languages",
+            "items": [
+                "JavaScript",
+                "Java",
+                "SQL"
+            ]
+        },
+        {
+            "title": "Tools",
+            "items": [
+                "VSCode",
+                "Git",
+                "Docker",
+                "Figma"
+            ]
+        },
+        {
+            "title": "Databases",
+            "items": [
+                "Redis",
+                "MongoDB",
+                "MySQL"
+            ]
+        },
+        {
+            "title": "Others",
+            "items": [
+                "HTML",
+                "CSS",
+                "RestfulAPI"
+            ]
+        },
+        {
+            "title": "Frameworks",
+            "items": [
+                "React",
+                "Node.js",
+                "Spring",
+                "Express.js"
+            ]
+        }
+    ]
+}
