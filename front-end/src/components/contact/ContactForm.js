@@ -80,7 +80,7 @@ const ContactForm = () => {
         />
 
         <button type="submit" className={style.btnSubmit}>
-          Send email
+          Send mail
         </button>
 
         {/* Toast Notification */}

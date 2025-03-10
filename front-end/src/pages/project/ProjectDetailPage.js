@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 // components
-import ButtonOpenLink from "../../components/others/ButtonOpenLink";
-import TitleSession from "../../components/others/TitleSession";
-import ReturnButton from "../../components/others/ReturnButton";
+import ButtonOpenLink from "components/others/ButtonOpenLink";
+import TitleSession from "components/others/TitleSession";
+import ReturnButton from "components/others/ReturnButton";
 
 const ProjectDetailPage = () => {
   const location = useLocation();

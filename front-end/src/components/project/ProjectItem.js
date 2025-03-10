@@ -11,7 +11,7 @@ const ProjectItem = ({ project }) => {
 
   return (
     <>
-      <div className={style.projectItem}>
+      <div className={style.projectItem} onClick={handleClickProjectDetail}>
         <div className={style.projectItemName}>{project.name}</div>
 
         <div className={style.projectItemDescription}>

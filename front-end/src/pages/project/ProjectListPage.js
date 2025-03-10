@@ -1,12 +1,12 @@
-import data from "./../../data/projects.json";
+import data from "data/projects.json";
 
-import { PROJECTS_PER_PAGE } from "./../../config/pagination";
+import { PROJECTS_PER_PAGE } from "config/pagination";
 import { useState } from "react";
 
 // components
-import PageDescription from "../../components/others/PageDescription";
-import ProjectPaginator from "../../components/project/ProjectPaginator";
-import TitleSession from "../../components/others/TitleSession";
+import PageDescription from "components/others/PageDescription";
+import ProjectPaginator from "components/project/ProjectPaginator";
+import TitleSession from "components/others/TitleSession";
 
 
 const ProjectListPage = () => {

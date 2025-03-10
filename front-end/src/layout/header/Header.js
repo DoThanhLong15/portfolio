@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { useTitle } from "contexts/PageTitleContext";
 
-import { useTitle } from "../../contexts/PageTitleContext";
+import PageLogo from "components/others/PageLogo";
 
 import style from "./Header.module.css";
 
@@ -55,11 +56,7 @@ const Header = () => {
     <>
       <div className={`${style.header} flex`}>
         <div className={style.title}>
-          <img
-            className={style.pageLogo}
-            src="/assets/images/pageLogo.png"
-            alt="pageLogo"
-          />
+          <PageLogo />
           Long
         </div>
 

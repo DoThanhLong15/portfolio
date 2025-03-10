@@ -1,10 +1,10 @@
-import data from "./../../data/about-me.json";
+import data from "data/about-me.json";
 import style from "./style/AboutMePage.module.css";
 
-import AboutMeImage from "./../../components/about-me/AboutMeImage";
-import PageDescription from "./../../components/others/PageDescription";
-import SkillBox from "./../../components/others/SkillBox";
-import TitleSession from "./../../components/others/TitleSession";
+import AboutMeImage from "components/about-me/AboutMeImage";
+import PageDescription from "components/others/PageDescription";
+import SkillBox from "components/others/SkillBox";
+import TitleSession from "components/others/TitleSession";
 
 const AboutMePage = () => {
   return (
