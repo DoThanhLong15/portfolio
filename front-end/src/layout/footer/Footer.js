@@ -1,5 +1,7 @@
-import data from "./../../data/contact.json";
+import data from "data/contact.json";
 import style from "./Footer.module.css";
+
+import PageLogo from "components/others/PageLogo";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -12,7 +14,10 @@ const Footer = () => {
         <div className={style.content}>
           <div className={style.descriptionArea}>
             <div className={style.authorArea}>
-              <h3 className={style.author}>Long</h3>
+              <h3 className={style.author}>
+                <PageLogo />
+                Long
+              </h3>
               <div className={style.email}>longd8833@gmail.com</div>
             </div>
             <p className={style.description}>Backend developer</p>
@@ -25,7 +30,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} className={style.icon}/>
+              <FontAwesomeIcon icon={faGithub} className={style.icon} />
             </a>
           </div>
         </div>

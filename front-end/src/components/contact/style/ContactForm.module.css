@@ -1,0 +1,50 @@
+.contactFormArea {
+    background-color: var(--c-white-blue);
+    border: var(--c-black) 1px solid;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 80%;
+}
+
+.contactFormArea .formTitle {
+    color: var(--c-dark-blue);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contactFormArea .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem auto 0;
+    width: 80%;
+}
+
+.contactFormArea .contactForm .formLabel {
+    padding: 0.5rem 0;
+}
+
+.contactFormArea .contactForm .formInput {
+    border: var(--c-grey) 1px solid;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.contactFormArea .contactForm .btnSubmit {
+    background-color: var(--c-dark-blue);
+    border: none;
+    border-radius: 1rem;
+    color: var(--c-white);
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 1rem;
+    width: 30%;
+}
+
+.contactFormArea .contactForm .btnSubmit:hover {
+    background-color: var(--c-blue);
+}

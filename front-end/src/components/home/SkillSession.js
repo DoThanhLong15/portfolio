@@ -1,4 +1,4 @@
-import data from "./../../data/about-me.json";
+import data from "data/about-me.json";
 import style from "./style/SkillSession.module.css";
 
 import SkillBox from "../others/SkillBox";

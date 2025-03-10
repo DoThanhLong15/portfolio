@@ -1,11 +1,12 @@
+import style from "./style/BlogDetailPage.module.css";
+
 import moment from "moment";
 import ReactMarkdown from "react-markdown";
-import style from "./style/BlogDetailPage.module.css";
 
 import { useLocation } from "react-router-dom";
 
-import ReturnButton from "../../components/others/ReturnButton";
-import TitleSession from "../../components/others/TitleSession";
+import ReturnButton from "components/others/ReturnButton";
+import TitleSession from "components/others/TitleSession";
 
 const BlogDetailPage = () => {
   const location = useLocation();

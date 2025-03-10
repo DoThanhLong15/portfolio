@@ -1,12 +1,12 @@
-import data from "./../../data/blogs.json";
+import data from "data/blogs.json";
 
-import { BLOGS_PER_PAGE } from "./../../config/pagination";
+import { BLOGS_PER_PAGE } from "config/pagination";
 import { useState } from "react";
 
 // components
-import BlogPaginator from "../../components/blog/BlogPaginator";
-import PageDescription from "../../components/others/PageDescription";
-import TitleSession from "../../components/others/TitleSession";
+import BlogPaginator from "components/blog/BlogPaginator";
+import PageDescription from "components/others/PageDescription";
+import TitleSession from "components/others/TitleSession";
 
 const BlogListPage = () => {
   const [description] = useState(data.pageDescription);

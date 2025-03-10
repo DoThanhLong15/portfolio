@@ -1,7 +1,7 @@
 import React from "react";
 
-import MainRoute from "./routes/index";
-import { TitleProvider } from "./contexts/PageTitleContext";
+import MainRoute from "routes/index";
+import { TitleProvider } from "contexts/PageTitleContext";
 
 const App = () => {
 

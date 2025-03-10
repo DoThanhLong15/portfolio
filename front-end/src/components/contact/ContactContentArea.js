@@ -1,4 +1,4 @@
-import data from "./../../data/contact.json";
+import data from "data/contact.json";
 import style from "./style/ContactContentArea.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

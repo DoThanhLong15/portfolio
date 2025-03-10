@@ -1,8 +1,9 @@
-import data from "./../../data/contact.json";
+import data from "data/contact.json";
 
-import ContactContentArea from "./../../components/contact/ContactContentArea";
-import PageDescription from "./../../components/others/PageDescription";
-import TitleSession from "./../../components/others/TitleSession";
+import ContactContentArea from "components/contact/ContactContentArea";
+import ContactForm from "components/contact/ContactForm";
+import PageDescription from "components/others/PageDescription";
+import TitleSession from "components/others/TitleSession";
 
 
 const ContactPage = () => {
@@ -13,6 +14,10 @@ const ContactPage = () => {
       <PageDescription description={data.pageDescription} />
 
       <ContactContentArea />
+
+      <TitleSession title="form" />
+
+      <ContactForm />
     </>
   );
 };

@@ -6,13 +6,13 @@ import Header from "../layout/header/Header";
 import Footer from "../layout/footer/Footer";
 
 // pages
-import AboutMePage from "../pages/about-me/AboutMePage";
-import BlogDetailPage from "../pages/blog/BlogDetailPage";
-import BlogListPage from "../pages/blog/BlogListPage";
-import ContactPage from "../pages/contact/ContactPage";
-import ProjectDetailPage from "../pages/project/ProjectDetailPage";
-import ProjectListPage from "../pages/project/ProjectListPage";
-import HomePage from "../pages/home/HomePage";
+import AboutMePage from "pages/about-me/AboutMePage";
+import BlogDetailPage from "pages/blog/BlogDetailPage";
+import BlogListPage from "pages/blog/BlogListPage";
+import ContactPage from "pages/contact/ContactPage";
+import ProjectDetailPage from "pages/project/ProjectDetailPage";
+import ProjectListPage from "pages/project/ProjectListPage";
+import HomePage from "pages/home/HomePage";
 
 const MainRoute = () => {
   return (
