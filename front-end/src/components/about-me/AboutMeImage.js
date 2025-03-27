@@ -7,7 +7,7 @@ const AboutMeImage = () => {
       <div className={style.imageArea}>
         <img
           className={style.personImage}
-          src="/assets/images/personImage2.png"
+          src="/assets/images/personImage4.png"
           alt="Profile"
         />
         <img

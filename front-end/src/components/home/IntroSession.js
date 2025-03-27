@@ -18,7 +18,7 @@ const IntroSession = () => {
         <div className={style.imageArea}>
           <img
             className={style.personImage}
-            src="/assets/images/personImage1.png"
+            src="/assets/images/personImage3.png"
             alt="Profile"
           />
           <img
